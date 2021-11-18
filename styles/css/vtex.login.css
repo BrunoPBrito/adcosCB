@@ -1,0 +1,13 @@
+.label{
+    color:#222222;
+    font-size:12px;
+    text-transform: initial;
+}
+
+
+.container::after{
+    content:"|";
+    color:#F5F5F5;
+    width:23px;
+    text-align: center;
+}

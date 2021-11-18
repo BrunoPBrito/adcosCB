@@ -1,0 +1,15 @@
+.minicartWrapperContainer{
+    width:40px;
+    align-items: center;
+}
+.openIconContainer{
+    display:flex;
+    align-items: center;
+    padding-right: 0;
+}
+.openIconContainer::after{
+    content:"Minha sacola";
+    color:#222222;
+    white-space: nowrap;
+    font-size: 12px;
+}

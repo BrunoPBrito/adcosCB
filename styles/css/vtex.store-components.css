@@ -1,0 +1,12 @@
+.searchBarContainer{
+    width:510px;
+    margin:0 190px 0 143.88px;
+}
+:global(.vtex-input__suffix){
+    background-color: #F8F8F8;
+}
+
+:global(.vtex-input-prefix__group){
+    border:none;
+    outline: 0;
+}

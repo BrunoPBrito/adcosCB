@@ -1,0 +1,28 @@
+.flexRowContent--header-links{
+    margin: 11px auto 0 auto;
+    max-width: 1366px;
+}
+.flexRowContent--first-line{
+    height:20px;
+    align-items: unset;
+}
+
+.flexCol--firstline-left-col{
+    background-color: #D40053;
+    width:60px !important;
+}
+.flexCol--firstline-right-col{
+    background-color: #55595E;
+    height: 100%;
+    justify-content: center;
+}
+.flexRow--main-header{
+    margin:auto;
+    justify-content: center;
+    max-width: 1366px;
+}
+.flexRowContent--bag-icon{
+    display: flex;
+    align-items: center;
+    gap:10.97px;
+}
