@@ -7,9 +7,16 @@
     align-items: center;
     padding-right: 0;
 }
-.openIconContainer::after{
+/* .openIconContainer */
+.openIconContainer :global(.vtex-button) {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.openIconContainer :global(.vtex-button)::after{
     content:"Minha sacola";
     color:#222222;
     white-space: nowrap;
     font-size: 12px;
 }
+ 
