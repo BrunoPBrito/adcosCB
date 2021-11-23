@@ -7,3 +7,7 @@
 .paragraph--text-bag-icon{
     font-size: 12px;
 }
+.paragraph--firstline-text {
+    margin: 0;
+    padding: 1px 0;
+}

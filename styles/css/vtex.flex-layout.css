@@ -1,9 +1,9 @@
-.flexRowContent--header-links{
+/* .flexRowContent--header-links{
     margin: 11px auto 0 auto;
     max-width: 1366px;
-}
+} */
 .flexRowContent--first-line{
-    height:20px;
+    /* height:20px; */
     align-items: unset;
 }
 
