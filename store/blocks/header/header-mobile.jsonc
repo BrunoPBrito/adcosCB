@@ -7,7 +7,7 @@
       },
       "flex-layout.row#mobile": {
         "children": [
-          "drawer",
+          "drawer#drawer_challenge",
           "logo",
           "flex-layout.col#spacer",
           "login",
@@ -20,7 +20,10 @@
           "fullWidth": true
         }
       },
-      "drawer": {
+      "drawer#drawer_challenge": {
+        "props":{
+          "orientation":"vertical"
+        },
         "children": []
       }
 }

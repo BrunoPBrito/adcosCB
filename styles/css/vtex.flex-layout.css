@@ -18,7 +18,6 @@
 }
 .flexRow--main-header{
     margin:auto;
-    justify-content: center;
     max-width: 1366px;
 }
 .flexRowContent--bag-icon{
