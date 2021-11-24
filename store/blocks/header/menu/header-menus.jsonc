@@ -1,0 +1,287 @@
+{
+    "vtex.menu@2.x:menu#mainMenu": {
+        "props": {
+            "orientation": "horizontal",
+            "width": "100%"
+          },
+          "children": [
+            "menu-item#categoria-1",
+            "menu-item#categoria-2",
+            "menu-item#categoria-3"
+
+          ]
+    },
+    "menu-item#categoria-3": {
+        "props": {
+            "href": "/protecao-solar",
+            "type": "custom",
+            "text": "Proteção Solar",
+            "blockClass": "categories-menu"
+        }
+    },
+    "menu-item#categoria-1": {
+        "props": {
+            "type": "custom",
+            // "highlight": true,
+            "itemProps": {
+                "href": "/facial",
+                "type": "custom",
+                "text": "Facial"
+            },
+            "blockClass": "categories-menu"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#categoria-1"
+        ]
+    },
+    "vtex.menu@2.x:submenu#categoria-1": {
+        "children": [
+            "flex-layout.row#menu-categoria-1"
+        ],
+        "props": {
+            "blockClass": ["menu-flex-row"],
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#menu-categoria-1": {
+        "children": [
+
+            "flex-layout.row#category-container-inner1",
+            // "flex-layout.col#menu-categoria-1-1"
+
+            // "flex-layout.col#menu-categoria-1-2",
+            // "flex-layout.row#menu-categoria-1-3",
+            // "flex-layout.row#menu-categoria-1-4",
+            "flex-layout.col#menu-categoria-1-5"
+
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#category-container-inner1": {
+        "children": [
+            "flex-layout.col#menu-categoria-1-1",
+            "flex-layout.col#menu-categoria-1-1",
+            "flex-layout.col#menu-categoria-1-1",
+            "flex-layout.col#menu-categoria-1-1",
+            "flex-layout.col#menu-categoria-1-1"
+        ],
+        "props": {
+            "width": "75%",
+            "blockClass": "category-container-inner1"
+        }
+    },
+    "flex-layout.col#menu-categoria-1-1": {
+        "children": [
+            "rich-text#menu-categoria-1-1-title",
+            "vtex.menu@2.x:menu#inner-category-1-1"
+        ]
+    },
+    "rich-text#menu-categoria-1-1-title": {
+        "props": {
+            "text": "Facial"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-1-1": {
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": "menu-show-categoria",
+            "items": [
+                {
+                    "id": "menu-item-anti",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Antienvelhecimento",
+                      "text": "Antienvelhecimento"
+                    }
+                  },
+                  {
+                    "id": "menu-item-protection",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/protecao",
+                      "noFollow": false,
+                      "tagTitle": "Proteção Solar",
+                      "text": "Proteção Solar"
+                    }
+                  },
+                  {
+                    "id": "menu-item-clearence",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/clareamento",
+                      "noFollow": false,
+                      "tagTitle": "Clareamento",
+                      "text": "Clareamento"
+                    }
+                  }
+            ]
+        }
+    },
+    "flex-layout.col#menu-categoria-1-5": {
+        "children": [
+            "image#menu-categoria-1-image"
+        ]
+    },
+    "image#menu-categoria-1-image": {
+        "props": {
+            "src": "/arquivos/category-example1.png"
+        }
+    },
+
+
+    "menu-item#categoria-2": {
+        "props": {
+            "type": "custom",
+            // "highlight": true,
+            "itemProps": {
+                "href": "/Corporal",
+                "type": "custom",
+                "text": "Corporal"
+            },
+            "blockClass": "categories-menu"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#categoria-2"
+        ]
+    },
+    "vtex.menu@2.x:submenu#categoria-2": {
+        "children": [
+            "flex-layout.row#menu-categoria-2"
+        ],
+        "props": {
+            "blockClass": ["menu-flex-row"],
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#menu-categoria-2": {
+        "children": [
+
+            "flex-layout.row#category-container-inner2",
+            // "flex-layout.col#menu-categoria-1-1"
+
+            // "flex-layout.col#menu-categoria-1-2",
+            // "flex-layout.row#menu-categoria-1-3",
+            // "flex-layout.row#menu-categoria-1-4",
+            "flex-layout.col#menu-categoria-1-5"
+
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#category-container-inner2": {
+        "children": [
+            "flex-layout.col#menu-categoria-2-1",
+            "flex-layout.col#menu-categoria-2-2"
+            // "flex-layout.col#menu-categoria-2-3",
+            // "flex-layout.col#menu-categoria-2-4"
+
+        ]
+    },
+    "flex-layout.col#menu-categoria-2-1": {
+        "children": [
+            "rich-text#menu-categoria-2-1-title",
+            "vtex.menu@2.x:menu#inner-category-2-1"
+        ]
+    },
+    "rich-text#menu-categoria-2-1-title": {
+        "props": {
+            "text": "Corporal"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-2-1": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-test1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/oleo",
+                      "noFollow": false,
+                      "tagTitle": "Oleo",
+                      "text": "Oleo"
+                    }
+                },
+                {
+                    "id": "menu-item-test2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/hidratacao",
+                      "noFollow": false,
+                      "tagTitle": "Hidratação",
+                      "text": "Hidratação"
+                    }
+                },
+                {
+                    "id": "menu-item-test3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/vitamina",
+                      "noFollow": false,
+                      "tagTitle": "Vitamina",
+                      "text": "Vitamina"
+                    }
+                }
+            ],
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria"
+        }
+    },
+
+    "flex-layout.col#menu-categoria-2-2": {
+        "children": [
+            "rich-text#menu-categoria-2-2-title",
+            "vtex.menu@2.x:menu#inner-category-2-2"
+        ]
+    },
+    "rich-text#menu-categoria-2-2-title": {
+        "props": {
+            "text": "Exemplo"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-2-2": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria",
+            "items": [
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "custom",
+                        "text": "Exemplo 1"
+                    }
+                }
+            ]
+        }
+        // "children": [
+        //     "menu-item#inner-category-content-1"
+        // ]
+    }
+    // "menu-item#inner-category-content-1": {
+    //     "props": 
+    // }
+
+}

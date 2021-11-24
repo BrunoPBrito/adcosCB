@@ -11,6 +11,12 @@
     background-color: #D40053;
     width:60px !important;
 }
+.flexRowContent--main-header {
+    justify-content: space-between;
+}
+.flexRowContent--category-container-inner1 .stretchChildrenWidth {
+    margin: 0 20px;
+}
 .flexCol--firstline-right-col{
     background-color: #55595E;
     height: 100%;

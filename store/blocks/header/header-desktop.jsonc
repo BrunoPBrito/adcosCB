@@ -3,7 +3,13 @@
     "children": [
       "flex-layout.row#first-line",
       "flex-layout.row#desktop-header-container",
-      "sticky-layout#desktop"
+      "sticky-layout#desktop",
+      "flex-layout.row#desktop-menu-line"
+    ]
+  },
+  "flex-layout.row#desktop-menu-line": {
+    "children": [
+      "vtex.menu@2.x:menu#mainMenu"
     ]
   },
   "flex-layout.row#desktop-header-container": {

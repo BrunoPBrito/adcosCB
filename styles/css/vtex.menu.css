@@ -1,0 +1,17 @@
+.menuContainer--menu-show-categoria {   
+    display: flex;
+    flex-direction: column;
+}
+.styledLinkContainer--menu-show-categoria {
+    margin: 0%;
+}
+.styledLinkContent--menu-show-categoria {
+    margin: 0%;
+    padding: 5px 0;
+}
+.submenu--menu-flex-row {
+    max-width: 1366px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
