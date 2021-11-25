@@ -2,3 +2,9 @@
     max-width: 1366px;
     margin: 0 auto;
 }
+.wrapper--sticky-header :global(.vtex-store-drawer-0-x-openIconContainer--drawer_challenge){
+    display:none;
+}
+.wrapper--sticky-header--stuck :global(.vtex-store-drawer-0-x-openIconContainer--drawer_challenge){
+    display:block;
+}

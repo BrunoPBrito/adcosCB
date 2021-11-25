@@ -137,6 +137,7 @@
         "horizontalAlign":"center"
       },
     "children":[
+        "drawer#drawer_challenge",
         "flex-layout.col#logo-desktop",
         "search-bar#main-header-searchBar",
         "login",
