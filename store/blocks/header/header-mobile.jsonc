@@ -22,6 +22,7 @@
       },
       "drawer#drawer_challenge": {
         "props":{
+          "blockClass":"drawer_challenge",
           "orientation":"vertical"
         },
         "children": []
