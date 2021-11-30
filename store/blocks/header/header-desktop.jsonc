@@ -8,6 +8,9 @@
     ]
   },
   "flex-layout.row#desktop-menu-line": {
+    "props":{
+      "blockClass":"wrapper_row_menu"
+    },
     "children": [
       "vtex.menu@2.x:menu#mainMenu"
     ]
@@ -133,11 +136,12 @@
       "props":{
         "blockClass": "main-header",
         "preventHorizontalStretch":"true",
-        "width":"grow",
-        "horizontalAlign":"center"
+        "width":"grow"
+        // "horizontalAlign":"center"
       },
     "children":[
-        "drawer#drawer_challenge",
+        //"drawer#drawer_challenge",
+        "toggle-menu",
         "flex-layout.col#logo-desktop",
         "search-bar#main-header-searchBar",
         "login",

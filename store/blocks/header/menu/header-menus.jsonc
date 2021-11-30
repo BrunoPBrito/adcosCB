@@ -1,21 +1,58 @@
 {
     "vtex.menu@2.x:menu#mainMenu": {
         "props": {
+            "blockClass":"wrapper_menu",
             "orientation": "horizontal",
             "width": "100%"
           },
           "children": [
             "menu-item#categoria-1",
             "menu-item#categoria-2",
-            "menu-item#categoria-3"
-
+            "menu-item#categoria-3",
+            "menu-item#categoria-4",
+            "menu-item#categoria-5",
+            "menu-item#categoria-6",
+            "menu-item#categoria-7",
+            "menu-item#categoria-8"
           ]
     },
-    "menu-item#categoria-3": {
+    "menu-item#categoria-4": {
         "props": {
             "href": "/protecao-solar",
             "type": "custom",
             "text": "Proteção Solar",
+            "blockClass": "categories-menu"
+        }
+    },
+    "menu-item#categoria-5": {
+        "props": {
+            "href": "/kit-produtos",
+            "type": "custom",
+            "text": "Kit de Produtos",
+            "blockClass": "categories-menu"
+        }
+    },
+    "menu-item#categoria-6": {
+        "props": {
+            "href": "/vitaminac",
+            "type": "custom",
+            "text": "Vitamina C",
+            "blockClass": "categories-menu"
+        }
+    },
+    "menu-item#categoria-7": {
+        "props": {
+            "href": "/veganos",
+            "type": "custom",
+            "text": "Veganos",
+            "blockClass": "categories-menu"
+        }
+    },
+    "menu-item#categoria-8": {
+        "props": {
+            "href": "/encontrerotina",
+            "type": "custom",
+            "text": "Encontre sua rotina",
             "blockClass": "categories-menu"
         }
     },
@@ -39,7 +76,7 @@
             "flex-layout.row#menu-categoria-1"
         ],
         "props": {
-            "blockClass": ["menu-flex-row"],
+            "blockClass": "menu-flex-row",
             "width": "100%"
         }
     },
@@ -48,7 +85,6 @@
 
             "flex-layout.row#category-container-inner1",
             // "flex-layout.col#menu-categoria-1-1"
-
             // "flex-layout.col#menu-categoria-1-2",
             // "flex-layout.row#menu-categoria-1-3",
             // "flex-layout.row#menu-categoria-1-4",
@@ -162,7 +198,7 @@
             "flex-layout.row#menu-categoria-2"
         ],
         "props": {
-            "blockClass": ["menu-flex-row"],
+            "blockClass": "menu-flex-row",
             "width": "100%"
         }
     },
@@ -183,6 +219,9 @@
         }
     },
     "flex-layout.row#category-container-inner2": {
+        "props":{
+            "blockClass": "category-container-inner1"
+        },
         "children": [
             "flex-layout.col#menu-categoria-2-1",
             "flex-layout.col#menu-categoria-2-2"
@@ -258,7 +297,7 @@
     },
     "rich-text#menu-categoria-2-2-title": {
         "props": {
-            "text": "Exemplo"
+            "text": "Revitaliza"
         }
     },
     "vtex.menu@2.x:menu#inner-category-2-2": {
@@ -270,16 +309,313 @@
                     "type": "custom",
                     "highlight": false,
                     "itemProps": {
-                        "type": "custom",
-                        "text": "Exemplo 1"
+                    "type": "custom",
+                    "text": "Babosa"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                    "type": "custom",
+                    "text": "Colágeno"
+                    }
+                },
+                {
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                    "type": "custom",
+                    "text": "Vitamina"
                     }
                 }
             ]
         }
+    },
+    "menu-item#categoria-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href": "/capilar",
+                "type": "custom",
+                "text": "Capilar"
+            },
+            "blockClass": "categories-menu"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#categoria-3"
+        ]
+    },
+    "vtex.menu@2.x:submenu#categoria-3": {
+        "children": [
+            "flex-layout.row#menu-categoria-3"
+        ],
+        "props": {
+            "blockClass": "menu-flex-row",
+            "width": "100%"
+        }
+    },
+    "flex-layout.row#menu-categoria-3": {
+        "children": [
+
+            "flex-layout.row#category-container-inner3",
+            "flex-layout.col#menu-categoria-1-5"
+
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#category-container-inner3": {
+        "props":{
+            "blockClass": "category-container-inner1"
+        },
+        "children": [
+            "flex-layout.col#menu-categoria-3-1",
+            "flex-layout.col#menu-categoria-3-2",
+            "flex-layout.col#menu-categoria-3-3",
+            "flex-layout.col#menu-categoria-3-4"
+
+        ]
+    },
+    "flex-layout.col#menu-categoria-3-1": {
+        "children": [
+            "rich-text#menu-categoria-3-1-title",
+            "vtex.menu@2.x:menu#inner-category-3-1"
+        ]
+    },
+    "rich-text#menu-categoria-3-1-title": {
+        "props": {
+            "text": "Limpeza Profunda"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-3-1": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-test1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/shampoo",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo",
+                        "text": "Shampoo"
+                    }
+                },
+                {
+                    "id": "menu-item-test2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/condicionador",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador",
+                        "text": "Condicionador"
+                    }
+                },
+                {
+                    "id": "menu-item-test3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/hidratante",
+                        "noFollow": false,
+                        "tagTitle": "Hidratante",
+                        "text": "Hidratante"
+                    }
+                }
+            ],
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria"
+        }
+    },
+    "flex-layout.col#menu-categoria-3-2": {
+        "children": [
+            "rich-text#menu-categoria-3-2-title",
+            "vtex.menu@2.x:menu#inner-category-3-2"
+        ]
+    },
+    "rich-text#menu-categoria-3-2-title": {
+        "props": {
+            "text": "Cuidados Especiais"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-3-2": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-test1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/vitaminad",
+                        "noFollow": false,
+                        "tagTitle": "Vitamina D",
+                        "text": "Vitamina D"
+                    }
+                },
+                {
+                    "id": "menu-item-test2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mascara",
+                        "noFollow": false,
+                        "tagTitle": "Máscara",
+                        "text": "Máscara"
+                    }
+                },
+                {
+                    "id": "menu-item-test3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/oleodecoco",
+                        "noFollow": false,
+                        "tagTitle": "Óleo de côco",
+                        "text": "Óleo de côco"
+                    }
+                }
+            ],
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria"
+        }
+    },
+    "flex-layout.col#menu-categoria-3-3": {
+        "children": [
+            "rich-text#menu-categoria-3-3-title",
+            "vtex.menu@2.x:menu#inner-category-3-3"
+        ]
+    },
+    "rich-text#menu-categoria-3-3-title": {
+        "props": {
+            "text": "Cuidados Especiais"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-3-3": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-test1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/vitaminad",
+                        "noFollow": false,
+                        "tagTitle": "Vitamina D",
+                        "text": "Vitamina D"
+                    }
+                },
+                {
+                    "id": "menu-item-test2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mascara",
+                        "noFollow": false,
+                        "tagTitle": "Máscara",
+                        "text": "Máscara"
+                    }
+                },
+                {
+                    "id": "menu-item-test3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/oleodecoco",
+                        "noFollow": false,
+                        "tagTitle": "Óleo de côco",
+                        "text": "Óleo de côco"
+                    }
+                }
+            ],
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria"
+        }
+    },
+    "flex-layout.col#menu-categoria-3-4": {
+        "children": [
+            "rich-text#menu-categoria-3-4-title",
+            "vtex.menu@2.x:menu#inner-category-3-4"
+        ]
+    },
+    "rich-text#menu-categoria-3-4-title": {
+        "props": {
+            "text": "Cuidados Especiais"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-category-3-4": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-test1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/vitaminad",
+                        "noFollow": false,
+                        "tagTitle": "Vitamina D",
+                        "text": "Vitamina D"
+                    }
+                },
+                {
+                    "id": "menu-item-test2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mascara",
+                        "noFollow": false,
+                        "tagTitle": "Máscara",
+                        "text": "Máscara"
+                    }
+                },
+                {
+                    "id": "menu-item-test3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/oleodecoco",
+                        "noFollow": false,
+                        "tagTitle": "Óleo de côco",
+                        "text": "Óleo de côco"
+                    }
+                }
+            ],
+            "orientation": "vertical",
+            "blockClass": "menu-show-categoria"
+        }
+    }
+                
+    
         // "children": [
         //     "menu-item#inner-category-content-1"
         // ]
-    }
+    
     // "menu-item#inner-category-content-1": {
     //     "props": 
     // }

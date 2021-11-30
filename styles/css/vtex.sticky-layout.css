@@ -1,10 +1,17 @@
 .container {
     max-width: 1366px;
     margin: 0 auto;
+    background-color: #fff;
 }
 .wrapper--sticky-header :global(.vtex-store-drawer-0-x-openIconContainer--drawer_challenge){
-    display:none;
+    visibility: hidden;
+    z-index: 100;
+    position:absolute;
 }
 .wrapper--sticky-header--stuck :global(.vtex-store-drawer-0-x-openIconContainer--drawer_challenge){
-    display:block;
+    visibility: visible;
+    z-index: 0;
+}
+.wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
+    visibility:hidden;
 }

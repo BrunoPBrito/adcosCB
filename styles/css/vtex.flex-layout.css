@@ -12,7 +12,7 @@
     width:60px !important;
 }
 .flexRowContent--main-header {
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .flexRowContent--category-container-inner1 .stretchChildrenWidth {
     margin: 0 20px;
@@ -23,11 +23,19 @@
     justify-content: center;
 }
 .flexRow--main-header{
-    margin:auto;
+    margin:0 auto;
     max-width: 1366px;
 }
 .flexRowContent--bag-icon{
     display: flex;
     align-items: center;
     gap:10.97px;
+}
+.flexRowContent--header-links:last-child{
+    padding-right: 12px;
+}
+
+.flexRow--wrapper-row-menu{
+    visibility: visible;
+    transition:.5s;
 }

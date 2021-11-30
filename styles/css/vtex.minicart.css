@@ -5,9 +5,9 @@
 .openIconContainer{
     display:flex;
     align-items: center;
-    padding-right: 0;
+    /* padding-right: 0; */
 }
-/* .openIconContainer */
+
 .openIconContainer :global(.vtex-button) {
     display: flex;
     align-items: center;
