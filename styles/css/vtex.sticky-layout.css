@@ -12,6 +12,3 @@
     visibility: visible;
     z-index: 0;
 }
-.wrapper--sticky-header--stuck :global(.vtex-flex-layout-0-x-flexRowContent--main-header){
-    visibility:hidden;
-}

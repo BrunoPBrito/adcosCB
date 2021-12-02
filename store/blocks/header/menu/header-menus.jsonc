@@ -65,7 +65,7 @@
                 "type": "custom",
                 "text": "Facial"
             },
-            "blockClass": "categories-menu"
+            "blockClass": ["categories-menu","arrow"]
         },
         "blocks": [
             "vtex.menu@2.x:submenu#categoria-1"
@@ -187,7 +187,7 @@
                 "type": "custom",
                 "text": "Corporal"
             },
-            "blockClass": "categories-menu"
+            "blockClass": ["categories-menu","arrow"]
         },
         "blocks": [
             "vtex.menu@2.x:submenu#categoria-2"
@@ -340,7 +340,7 @@
                 "type": "custom",
                 "text": "Capilar"
             },
-            "blockClass": "categories-menu"
+            "blockClass": ["categories-menu","arrow"]
         },
         "blocks": [
             "vtex.menu@2.x:submenu#categoria-3"

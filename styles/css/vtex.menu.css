@@ -24,3 +24,22 @@
     align-items: center;
     justify-content: space-between;
 }
+.styledLinkContainer--arrow{
+    display:flex;
+    align-items:center;
+}
+.menuItem--arrow--isClosed :global(.vtex-menu-2-x-styledLinkContainer--arrow)::after{
+    content:url("/arquivos/arrowMenuAdcos.svg");
+    transform: rotate(90deg);
+    width:5px;
+    height:5px;
+    margin-left:20px;
+}
+.menuItem--arrow--isOpen :global(.vtex-menu-2-x-styledLinkContainer--arrow)::after{
+    content:url("/arquivos/arrowMenuAdcos.svg");
+    transform: rotate(-90deg);
+    width:5px;
+    height:5px;
+    margin:0 13px 0 7px;
+
+}
