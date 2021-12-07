@@ -1,0 +1,529 @@
+{
+    "footer-layout.desktop#linksFooter": { 
+      "props":{
+          "blockClass":"linksFooter"
+      },
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "flex-layout.col#socialMedia_Logo_Footer",
+      "flex-layout.col#departament",
+      "flex-layout.col#institutional",
+      "flex-layout.col#links",
+      "flex-layout.col#contact"
+    ]
+  },
+  "flex-layout.col#socialMedia_Logo_Footer":{
+    "props":{
+      "blockClass":"socialMedia_Logo_Footer"
+    },
+    "children":[
+      "flex-layout.col#logo_Footer",
+      "flex-layout.col#socialMedia_Footer"
+    ]
+  },
+  "flex-layout.col#logo_Footer":{
+    "props":{
+      "blockClass":"logo_Footer"
+    },
+      "children":["image#logo_footer_img"]
+  },
+
+  "image#logo_footer_img": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+
+  "flex-layout.col#socialMedia_Footer":{
+    "props":{
+      "blockClass":"socialMedia_Footer"
+    },
+    "children":[
+      "image#youtube",
+      "image#facebook",
+      "image#instagram",
+      "image#linkedin",
+      "image#twitter"
+
+    ]
+  },
+  "image#youtube": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+  "image#linkedin": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+  "image#twitter": {
+    "props": {
+      "width": 100,
+      "src": "/arquivos/.png"
+    }
+  },
+  "flex-layout.col#departament": {
+    "props":{
+      "blockClass":"departament"
+    },
+    "children": [
+        "rich-text#departament-title",
+        "vtex.menu@2.x:menu#inner-departament-menu-items"
+    ]
+  },
+  "rich-text#departament-title": {
+      "props": {
+        "blockClass":"departament-title",
+          "text": "Departamento"
+      }
+  },
+  "vtex.menu@2.x:menu#inner-departament-menu-items": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "inner-departament-menu-items",
+      "items": [
+        {
+          "id": "home-adcos-footer-menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/homeadcos",
+            "noFollow": false,
+            "tagTitle": "Home Adcos",
+            "text": "Home Adcos"
+          }
+        },
+        {
+          "id": "tratemento-facial-menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tratamentofacial",
+            "noFollow": false,
+            "tagTitle": "Tratamento Facial",
+            "text": "Tratamento Facial"
+          }
+        },
+        {
+          "id": "tratamento-corporal-menu-item",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tratamentocorporal",
+            "noFollow": false,
+            "tagTitle": "Tratamento Corporal",
+            "text": "Tratamento Corporal"
+            }
+          },
+          {
+            "id": "tratamento-capilar-menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/tratamentocapilar",
+              "noFollow": false,
+              "tagTitle": "Tratamento Capilar",
+              "text": "Tratamento Capilar"
+              }
+            },
+            {
+              "id": "protecao-solar-menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/protecaosolar",
+                "noFollow": false,
+                "tagTitle": "Proteção Solar",
+                "text": "Proteção Solar"
+                }
+              },
+              {
+                "id": "vitamina-c-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/vitaminac",
+                  "noFollow": false,
+                  "tagTitle": "Vitamina C",
+                  "text": "Vitamina C"
+                }
+              },
+              {
+                "id": "kit-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/kit",
+                  "noFollow": false,
+                  "tagTitle": "Kit",
+                  "text": "Kit"
+                }
+              },
+              {
+                "id": "veganos-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/veganos",
+                  "noFollow": false,
+                  "tagTitle": "Veganos",
+                  "text": "Veganos"
+                }
+              },
+              {
+                "id": "rotina-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/encontresuarotina",
+                  "noFollow": false,
+                  "tagTitle": "Encontre sua rotina",
+                  "text": "Encontre sua rotina"
+                }
+              },
+              {
+                "id": "blog-adcos-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/blogadcos",
+                  "noFollow": false,
+                  "tagTitle": "Blog Adcos",
+                  "text": "Blog Adcos"
+                }
+              }
+            ]
+        }
+    },
+    "flex-layout.col#institutional": {
+      "props":{
+        "blockClass":"institutional",
+        "colSizing":"auto"
+      },
+      "children": [
+          "rich-text#institutional-title",
+          "vtex.menu@2.x:menu#inner-institutional-menu-items"
+      ]
+    },
+    "rich-text#institutional-title": {
+        "props": {
+          "blockClass":"institutional-title",
+            "text": "Institucional"
+        }
+    },
+    "vtex.menu@2.x:menu#inner-institutional-menu-items": {
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "inner-institutional-menu-items",
+        "items": [
+          {
+            "id": "sobre-a-adcos-menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/sobreaadcos",
+              "noFollow": false,
+              "tagTitle": "Sobre a Adcos",
+              "text": "Sobre a Adcos"
+            }
+          },
+          {
+            "id": "franquias-menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/franquias",
+              "noFollow": false,
+              "tagTitle": "Franquias",
+              "text": "Franquias"
+            }
+          },
+          {
+            "id": "nossas-lojas-menu-item",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/nossaslojas",
+              "noFollow": false,
+              "tagTitle": "Nossas Lojas",
+              "text": "Nossas Lojas"
+              }
+            },
+            {
+              "id": "fale-conosco-menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/faleconosco",
+                "noFollow": false,
+                "tagTitle": "Fale Conosco",
+                "text": "Fale Conosco"
+                }
+              },
+              {
+                "id": "loja-profissional-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/lojaprofissional",
+                  "noFollow": false,
+                  "tagTitle": "Loja Profissional",
+                  "text": "Loja Profissional"
+                  }
+                },
+                {
+                  "id": "mapa-do-site-menu-item",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "/mapadosite",
+                    "noFollow": false,
+                    "tagTitle": "Mapa do Site",
+                    "text": "Mapa do Site"
+                    }
+                  }
+              ]
+          }
+      },
+      "flex-layout.col#links": {
+        "props":{
+          "blockClass":"links"
+        },
+        "children": [
+            "rich-text#links-title",
+            "vtex.menu@2.x:menu#inner-links-menu-items"
+        ]
+      },
+      "rich-text#links-title": {
+          "props": {
+            "blockClass":"links-title",
+              "text": "Links úteis"
+          }
+      },
+      "vtex.menu@2.x:menu#inner-links-menu-items": {
+        "props": {
+          "orientation": "horizontal",
+          "blockClass": "inner-links-menu-items",
+          "items": [
+            {
+              "id": "perguntas-frequentes-menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/perguntasfrequentes",
+                "noFollow": false,
+                "tagTitle": "Perguntas Frequentes",
+                "text": "Perguntas Frequentes"
+              }
+            },
+            {
+              "id": "politica-de-privacidade-menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/politicadeprivacidade",
+                "noFollow": false,
+                "tagTitle": "Politica de Privacidade",
+                "text": "Politica de Privacidade"
+              }
+            },
+            {
+              "id": "termos-e-condicoes-menu-item",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/termosecondicoes",
+                "noFollow": false,
+                "tagTitle": "Termos e Condições",
+                "text": "Termos e Condições"
+                }
+              },
+              {
+                "id": "troca-e-devolucao-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/trocaedevolucao",
+                  "noFollow": false,
+                  "tagTitle": "Troca e Devolução",
+                  "text": "Troca e Devolução"
+                  }
+                },
+                {
+                  "id": "atendimento-ao-cliente-menu-item",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "/atendimentoaocliente",
+                    "noFollow": false,
+                    "tagTitle": "Atendimento ao Cliente",
+                    "text": "Atendimento ao Cliente"
+                    }
+                  },
+                  {
+                    "id": "acompanhe-seus-pedidos-menu-item",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/acompanheseuspedidos",
+                      "noFollow": false,
+                      "tagTitle": "Acompanhe seus Pedidos",
+                      "text": "Acompanhe seus Pedidos"
+                      }
+                    },
+                    {
+                      "id": "minha-conta-menu-item",
+                      "type": "custom",
+                      "iconId": null,
+                      "highlight": false,
+                      "itemProps": {
+                        "type": "internal",
+                        "href": "/minhaconta",
+                        "noFollow": false,
+                        "tagTitle": "Minha Conta",
+                        "text": "Minha Conta"
+                        }
+                      },
+                      {
+                        "id": "como-comprar-menu-item",
+                        "type": "custom",
+                        "iconId": null,
+                        "highlight": false,
+                        "itemProps": {
+                          "type": "internal",
+                          "href": "/comocomprar",
+                          "noFollow": false,
+                          "tagTitle": "Como Comprar",
+                          "text": "Como Comprar"
+                          }
+                        }
+                ]
+            }
+        },
+        "flex-layout.col#contact": {
+          "props":{
+            "blockClass":"contact"
+          },
+          "children": [
+              "rich-text#contact-title",
+              "vtex.menu@2.x:menu#inner-contact-menu-items"
+          ]
+        },
+        "rich-text#contact-title": {
+            "props": {
+              "blockClass":"contact-title",
+                "text": "Contato"
+            }
+        },
+        "vtex.menu@2.x:menu#inner-contact-menu-items": {
+          "props": {
+            "orientation": "horizontal",
+            "blockClass": "inner-contact-menu-items",
+            "items": [
+              {
+                "id": "atendimento-ao-cliente-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/atendimentoaocliente",
+                  "noFollow": false,
+                  "tagTitle": "Atendimento ao Cliente",
+                  "text": "Atendimento ao Cliente"
+                }
+              },
+              {
+                "id": "sac-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/sac",
+                  "noFollow": false,
+                  "tagTitle": "SAC: 0800 722 11 23",
+                  "text": "SAC: 0800 722 11 23"
+                }
+              },
+              {
+                "id": "whatsapp-menu-item",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/whatsapp",
+                  "noFollow": false,
+                  "tagTitle": "Whatsapp: (27) 99718-9031",
+                  "text": "Whatsapp: (27) 99718-9031"
+                  }
+                }
+                  ]
+                }
+              }
+}

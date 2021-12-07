@@ -43,3 +43,15 @@
     margin:0 13px 0 7px;
 
 }
+/*Estilos do Footer*/
+.menuContainer--inner-departament-menu-items,.menuContainer--inner-institutional-menu-items,
+.menuContainer--inner-links-menu-items,.menuContainer--inner-contact-menu-items{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.styledLinkContainer--inner-departament-menu-items,.styledLinkContainer--inner-institutional-menu-items,
+.styledLinkContainer--inner-links-menu-items,.styledLinkContainer--inner-contact-menu-items{
+    margin:0 0 30px 0;
+    padding:0;
+}
