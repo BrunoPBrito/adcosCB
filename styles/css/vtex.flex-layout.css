@@ -39,3 +39,7 @@
     visibility: visible;
     transition:.5s;
 }
+.footerLinks{
+    background-color: #55595E;
+    min-height:428px;
+}
